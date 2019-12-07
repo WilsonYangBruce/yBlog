@@ -1,0 +1,16 @@
+!**/src/main/**
+!**/src/test/**
+
+target/
+*/*.jar
+**/*.log
+/logs
+#git rm -r --cached .
+#git add .
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
