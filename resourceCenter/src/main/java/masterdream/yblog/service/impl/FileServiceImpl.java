@@ -1,6 +1,6 @@
-package com.masterdream.yblog.service.impl;
+package masterdream.yblog.service.impl;
 
-import com.masterdream.yblog.service.intf.IFileService;
+import masterdream.yblog.service.intf.IFileService;
 import org.springframework.stereotype.Service;
 
 /**

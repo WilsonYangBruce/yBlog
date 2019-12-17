@@ -1,4 +1,4 @@
-package com.masterdream.yblog.base;
+package masterdream.yblog.base;
 
 /**
  * @Date: 2019/12/7

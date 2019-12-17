@@ -1,4 +1,4 @@
-package com.masterdream.yblog.service.intf;
+package masterdream.yblog.service.intf;
 
 /**
  * @Date: 2019/12/7

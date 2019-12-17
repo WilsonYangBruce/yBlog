@@ -1,4 +1,4 @@
-package com.masterdream.yblog.dao;
+package masterdream.yblog.dao;
 
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package com.masterdream.yblog.controller;
+package masterdream.yblog.controller;
 
-import com.masterdream.yblog.base.BaseController;
+import masterdream.yblog.base.BaseController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
