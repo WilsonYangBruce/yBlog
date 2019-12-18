@@ -1,13 +1,13 @@
-package masterdream.yblog;
+package com.masterdream.fileCenter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class YBlogApplication {
+public class FileCenterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(YBlogApplication.class, args);
+        SpringApplication.run(FileCenterApplication.class, args);
     }
 
 }

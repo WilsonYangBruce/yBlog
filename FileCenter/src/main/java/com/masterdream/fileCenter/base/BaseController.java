@@ -1,4 +1,4 @@
-package masterdream.yblog.base;
+package com.masterdream.fileCenter.base;
 
 /**
  * @Date: 2019/12/7

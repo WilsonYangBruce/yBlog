@@ -1,5 +1,5 @@
 server:
-  port: 32050
+  port: 15012
 spring:
   application:
     name: yBlog
