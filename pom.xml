@@ -24,7 +24,7 @@
         <module>gateway</module>
         <module>fileCenter</module>
         <module>authenticate</module>
-        <module>blog</module>
+        <module>blogManage</module>
     </modules>
 
     <properties>

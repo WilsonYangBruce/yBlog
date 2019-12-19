@@ -1,0 +1,29 @@
+server:
+  port: 15015
+  servlet:
+    context-path: /blogManage
+
+spring:
+  application:
+    name: blogManage
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blogmanage?characterEncoding=utf8&useSSL=false&useUnicode=true&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:15010/eureka/
+
+# MyBatisPlus
+mybatisPlus:
+  mapperLocations: classpath:/mappers/**/*.xml
+  type-aliases-package: com.masterdream.blogManage.model
+  global-config:
+    db-config:
+      id-type: uuid
+      logic-delete-value: -1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: false #关闭驼峰转换
