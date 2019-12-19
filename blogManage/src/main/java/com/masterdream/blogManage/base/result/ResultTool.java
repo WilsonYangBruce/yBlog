@@ -112,7 +112,7 @@ public class ResultTool {
         FAIL(400, "Bad Request"),
         UNAUTHORIZED(401, "Unauthorized"),
         NOT_LOGIN(403, "Forbidden"),
-        NOT_FOUND(404, "没找到"),
+        NOT_FOUND(404, "not found"),
         NO_RIGHT(405, "Method Not Allowed"),
         SERVER_FAIL(500, "服务器错误");
         private int code;
