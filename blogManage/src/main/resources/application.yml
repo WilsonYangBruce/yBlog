@@ -8,9 +8,17 @@ spring:
     name: blogManage
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/blogmanage?characterEncoding=utf8&useSSL=false&useUnicode=true&serverTimezone=Asia/Shanghai
-    username: root
-    password: 123456
+    url: ENC(O7v8BzZrDZwfUddSm7Dl1pH3zc9CQhd6ozDdwOb3ZWDvRpLD9GO/1dEnnmWvbjLD5KcjKA93vsiDwulHq10WkuXKcO4BQpimR9STfaNlGV/9iqwEfzJBKXO18DDF6WBNhHEz1wYFB8G5DFC3fvvqU2LW8TTxyyQ0krSIDLeQT2R0d3uW0Gc2eqS9RXsZ9yYHvg+cb2V/QL0kb8MQaGqPxA==)
+    username: ENC(bEm2/MKgfyS01ZvFyvATKDBAm11TfqnF/jRapZRP1olYnuOt9buoR97Jv7YzE0n4)
+    password: ENC(cSEK7BSXGvThSHr0AeRdasxsas4JThQn//uul1fF52bsUmR01wyjtkBf9I7V1MfI)
+# 加密的密钥
+# 测试环境可以采用在配置文件中配置
+# 生产环境建议采用启动参数的形式传入
+# 其他配置参数参考:com.ulisesbocchio.jasyptspringboot.properties.JasyptEncryptorConfigurationProperties
+#盐值
+jasypt:
+  encryptor:
+    password: p@s#d$3%8*&7(0)^
 
 eureka:
   client:
@@ -28,3 +36,4 @@ mybatisPlus:
       logic-not-delete-value: 0
   configuration:
     map-underscore-to-camel-case: false #关闭驼峰转换
+
